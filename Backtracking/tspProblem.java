@@ -25,11 +25,8 @@ public class tspProblem {
                          {15, 35, 0, 30},
                          {20, 25, 30, 0}};
  
-        // Boolean array to check if a node
-        // has been visited or not
+        
         boolean[] v = new boolean[n];
- 
-        // Mark 0th node as visited
         v[0] = true;
         int ans = Integer.MAX_VALUE;
  
